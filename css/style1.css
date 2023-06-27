@@ -1,0 +1,37 @@
+body {
+    color: rgb(205, 28, 172);
+    background: #d1d7c1;
+    background-image: url("../images/10.png");
+    background-size: 50px 50px;
+    padding: 20px;
+    background-clip: padding-box;
+    border: 30px solid rgba(246, 129, 20, 0.2);
+}
+
+h1 {
+    color: #fdfcff;
+    font-weight: 600;
+    font-size: 4em;
+    text-decoration: underline solid;
+    background: #b2f62a;
+}
+
+h2 {
+    color: #16e7d9;
+    background: rgb(242, 242, 21);
+    font-size: 2em;
+}
+/* class = banner */
+.banner {
+    color: rgb(6, 6, 6);
+}
+
+/* id = latest-posts */
+#latest-posts {
+    color: rgb(71, 65, 235);
+}
+
+/* headerタグのliだけ指定  前面的点点颜色没有了*/
+header li {
+    list-style: none;
+}
